@@ -8,8 +8,6 @@ var GIST_HEIGHT = 150;
 var COLUMN_WIDTH = 40;
 var COLUMN_GAP = 50;
 
-//рисуем облако
-//вывести надпись
 var renderCloud = function (ctx, x, y, width, height, color) {
   ctx.fillStyle = color;
   ctx.fillRect(x, y, width, height);
